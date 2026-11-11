@@ -1,24 +1,26 @@
-Caso de estudio — Grupo 10
+**Caso de estudio — Grupo 10**
 
 Asignatura: Estadística Aplicada
 Universidad: Universidad de Santiago de Chile
 Año: 2026
 
-Descripción
+**Descripción**
 
-Proyecto de predicción del retraso de llegada de vuelos comerciales durante 2024, utilizando modelos de regresión lineal, regularización, GAM, árboles y ensambles.
+Proyecto de predicción del retraso de llegada de vuelos comerciales durante 2024, utilizando modelos de regresión lineal, 
+regularización, GAM, árboles y ensambles.
 
-Datos
+**Datos**
 
-Se utiliza flight_data_2024_sample.csv, que contiene inicialmente 10.000 observaciones. Tras excluir vuelos cancelados y desviados, se emplean 9.836 registros.
+Se utiliza flight_data_2024_sample.csv, que contiene inicialmente 10.000 observaciones. Tras excluir vuelos cancelados y desviados, 
+se emplean 9.836 registros.
 
-Fuente: Flight Data 2024 — Kaggle.
+**Fuente:** Flight Data 2024 — Kaggle.
 
-Requisitos
+**Requisitos**
 
 R y RStudio.
 
-Paquetes: car, dplyr, ggplot2, caret, lmtest, sandwich, glmnet, mgcv, rpart, rpart.plot, randomForest y gbm.
+**Paquetes**: car, dplyr, ggplot2, caret, lmtest, sandwich, glmnet, mgcv, rpart, rpart.plot, randomForest y gbm.
 
 Instrucciones de reproducción
 
