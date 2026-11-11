@@ -22,21 +22,21 @@ R y RStudio.
 
 **Paquetes**: car, dplyr, ggplot2, caret, lmtest, sandwich, glmnet, mgcv, rpart, rpart.plot, randomForest y gbm.
 
-Instrucciones de reproducción
+**Instrucciones de reproducción**
 
-Descargar el repositorio.
+1. Descargar el repositorio.
 
-Abrir RStudio y establecer como carpeta de trabajo la ubicación del script y del CSV.
+2. Abrir RStudio y establecer como carpeta de trabajo la ubicación del script y del CSV.
 
-Instalar los paquetes requeridos que no estén disponibles.
+3. Instalar los paquetes requeridos que no estén disponibles.
 
-Verificar que el script tenga FOLDS_POR_FECHA <- TRUE.
+4. Verificar que el script tenga FOLDS_POR_FECHA <- TRUE.
 
-Ejecutar el script completo, desde el inicio hasta el final.
+5. Ejecutar el script completo, desde el inicio hasta el final.
 
 El análisis utiliza la semilla 123, una partición temporal de entrenamiento y test, y cinco folds de validación por fechas completas.
 
-Resultados
+**Resultados**
 
 El script genera la carpeta salidas_informe_fechas, que contiene métricas de validación y test, hiperparámetros, gráficos y archivos de reproducibilidad.
 
